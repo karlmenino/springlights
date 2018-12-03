@@ -34,7 +34,7 @@
 		</property>
 	</bean>
 
-
+<!--//on utilise eclairage dans app, ici on precise que cela fait reference a luminaire-->
 	<bean class="fr.laerce.lights.App" id="main" >
 		<property name="eclairage" ref="luminaire"/>
 	</bean>
